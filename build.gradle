@@ -40,6 +40,10 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
+jar {
+	enabled = false
+}
+
 bootJar{
 	archiveFileName = 'memo.jar'
 	archiveVersion = "0.0.1"
