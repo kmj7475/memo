@@ -12,10 +12,11 @@ public class TestClass {
 	public void test1() {
 		assertEquals("a", "a");
 	}
-	
+
 	@Test
 	@DisplayName("실행실패  ")
 	public void test2() {
 		assertEquals("b", "b");
 	}
+
 }
